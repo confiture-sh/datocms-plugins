@@ -1,5 +1,5 @@
 {
-  "name": "datocms-plugin-json-dynamic-table",
+  "name": "@confiture/oss-datocms-plugin-json-dynamic-table",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,14 +9,30 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "11.1.2",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "@headlessui/react": "^1.4.1",
+    "@heroicons/react": "^1.0.5",
+    "datocms-plugins-sdk": "^0.1.2",
+    "lodash": "^4.17.21",
+    "next": "^12.0.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.15.4",
+    "react-select": "^5.1.0",
+    "yup": "^0.32.9"
   },
   "devDependencies": {
+    "@next/eslint-plugin-next": "^12.0.3",
+    "@types/lodash": "^4.14.173",
     "@types/react": "17.0.21",
+    "@typescript-eslint/eslint-plugin": "^4.31.2",
+    "autoprefixer": "^10.3.4",
     "eslint": "7.32.0",
-    "eslint-config-next": "11.1.2",
+    "eslint-config-next": "^11.1.2",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "postcss": "^8.3.6",
+    "prettier": "^2.4.1",
+    "tailwindcss": "^2.2.15",
     "typescript": "4.4.3"
   }
 }

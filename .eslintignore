@@ -1,0 +1,7 @@
+## .eslintignore generated with love for Mhirba
+babel.config.js
+
+tailwind.config.js
+postcss.config.js
+prettier.config.js
+next.config.mjs
